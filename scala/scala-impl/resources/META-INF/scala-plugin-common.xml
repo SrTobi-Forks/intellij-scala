@@ -783,6 +783,7 @@
                          displayName="Type annotation required" groupPath="Scala" groupName="General"
                          shortName="TypeAnnotation" level="WARNING"
                          enabledByDefault="true" language="Scala"/>
+        <localInspection implementationClass="org.jetbrains.plugins.scala.codeInspection.GatherValsInspection" enabledByDefault="true" language="Scala" level="WARNING" displayName="Gather vals inspection" groupPath="Scala" groupName="General" shortName="gvalsinps"/>
         <localInspection implementationClass="org.jetbrains.plugins.scala.codeInspection.booleans.DoubleNegationInspection"
                          displayName="Double negation" groupPath="Scala" groupName="General"
                          shortName="DoubleNegationScala" level="WARNING"
