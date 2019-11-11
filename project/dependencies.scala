@@ -6,14 +6,13 @@ object Versions {
   // ATTENTION: when updating sbtVersion also update versions in MockSbt_1_0
   val sbtVersion: String = Sbt.latest
   val zincVersion = "1.3.1"
-  val ideaVersion = "193.4778.7"
+  val intellijVersion = "193.4778.7"
   val bspVersion = "2.0.0-M4"
   val sbtStructureVersion: String = "2018.2.1+4-88400d3f"
   val sbtIdeaShellVersion: String = "2018.3"
   val sbtIdeaCompilerIndicesVersion = "0.1.3"
   val scalaMetaVersion = "1.8.0"
   val paradiseVersion = "3.0.0-M11"
-  val scalazVersion = "7.1.0"
 
   object Scala {
     val binary_2_9 = "2.9.2"
